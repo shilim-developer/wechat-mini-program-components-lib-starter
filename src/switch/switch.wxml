@@ -1,0 +1,26 @@
+<view
+  wx:if="{{type !== 'line'}}"
+  class="sl-switch sl-switch-{{type}} {{checked?'active':''}}"
+  style="background: {{checked?activeColor:''}};border-color: {{checked?activeColor:''}};"
+  bind:tap="handleSwitchChange"
+>
+  <view class="sl-switch-round sl-switch-{{type}}"></view>
+</view>
+<view
+  wx:if="{{type === 'line'}}"
+  class="sl-switch-line {{checked?'active':''}}"
+  bind:tap="handleSwitchChange"
+>
+  <view class="sl-switch-line-item">
+    <view
+      class="sl-switch-line-box"
+      style="background: {{checked?activeColor:''}};border-color: {{checked?activeColor:''}};"
+    ></view>
+  </view>
+  <view class="sl-switch-line-item">
+    <view
+      class="sl-switch-line-round"
+      style="background: {{checked?activeColor:''}};border-color: {{checked?activeColor:''}};"
+    ></view>
+  </view>
+</view>

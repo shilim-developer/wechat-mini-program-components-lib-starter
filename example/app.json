@@ -1,0 +1,10 @@
+{
+  "pages": ["pages/home/home", "pages/gulp-error/index", "pages/switch/switch"],
+  "usingComponents": {},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5ad0c2",
+    "navigationBarTitleText": "SLComponent",
+    "navigationBarTextStyle": "white"
+  }
+}

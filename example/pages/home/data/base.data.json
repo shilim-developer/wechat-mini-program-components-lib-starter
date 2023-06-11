@@ -1,0 +1,10 @@
+{
+  "name": "基础",
+  "children": [
+    {
+      "name": "Swith",
+      "label": "开关",
+      "path": "/pages/switch/switch"
+    }
+  ]
+}

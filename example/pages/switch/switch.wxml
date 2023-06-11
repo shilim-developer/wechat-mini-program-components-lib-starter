@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="item">
+    <sl-switch type="circle" checked="{{checked}}" bind:change="handleSwitchChange"></sl-switch>
+  </view>
+  <view class="item">
+    <sl-switch type="square" checked="{{checked}}" bind:change="handleSwitchChange"></sl-switch>
+  </view>
+  <view class="item">
+    <sl-switch type="line" checked="{{checked}}" bind:change="handleSwitchChange"></sl-switch>
+  </view>
+</view>

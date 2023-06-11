@@ -1,0 +1,77 @@
+/* 默认switch */
+.sl-switch {
+  width: 80rpx;
+  height: 36rpx;
+  padding-left: 6rpx;
+  border: 2rpx solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.sl-switch.sl-switch-circle {
+  border-radius: 40rpx;
+}
+
+.sl-switch.sl-switch-square {
+  border-radius: 8rpx;
+}
+
+.sl-switch-round {
+  width: 24rpx;
+  height: 24rpx;
+  border: 2rpx solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  transition: all 200ms linear;
+  background: #ffffff;
+}
+
+.sl-switch-round.sl-switch-circle {
+  border-radius: 100%;
+}
+
+.sl-switch-round.sl-switch-square {
+  border-radius: 4rpx;
+}
+
+.sl-switch.active .sl-switch-round {
+  transform: translateX(40rpx);
+}
+
+/* 线switch */
+.sl-switch-line {
+  width: 80rpx;
+  height: 36rpx;
+  position: relative;
+}
+
+.sl-switch-line-item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sl-switch-line-box {
+  width: 70rpx;
+  height: 8rpx;
+  border: 2rpx solid rgba(0, 0, 0, 0.5);
+  border-radius: 8rpx;
+}
+
+.sl-switch-line-round {
+  width: 30rpx;
+  height: 30rpx;
+  border: 2rpx solid rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  box-sizing: border-box;
+  transition: all 200ms linear;
+  background: #ffffff;
+  transform: translateX(-25rpx);
+}
+
+.sl-switch-line.active .sl-switch-line-round {
+  transform: translateX(25rpx);
+}

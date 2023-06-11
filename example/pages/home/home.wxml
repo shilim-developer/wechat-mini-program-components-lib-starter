@@ -1,0 +1,5 @@
+<view class='main'>
+  <view class='title-wrap'>SLComponent</view>
+  <view class='desc'>自定义微信小程序组件库</view>
+  <group-list wx:for='{{list}}' name='{{item.name}}' wx:key='name' children='{{item.children}}' />
+</view>

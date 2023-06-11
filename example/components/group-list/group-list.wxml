@@ -1,0 +1,13 @@
+<view>
+  <view class='sl-group-list-name'>{{name}}</view>
+  <view
+    class='sl-group-list-item'
+    wx:for='{{children}}'
+    wx:key='name'
+    data-path='{{item.path}}'
+    bind:tap='toExample'
+  >
+    <text>{{item.name}}{{item.label}}</text>
+    <image class='icon' src='../../assets/arrow.svg' mode='aspectFill'></image>
+  </view>
+</view>

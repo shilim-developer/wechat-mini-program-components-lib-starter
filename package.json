@@ -1,0 +1,40 @@
+{
+  "name": "wechat-mini-program-components-lib-starter",
+  "version": "1.0.2",
+  "description": "Wechat Mini Program Components Lib Starter",
+  "main": "miniprogram_dist/index.js",
+  "miniprogram": "miniprogram_dist",
+  "files": [
+    "miniprogram_dist"
+  ],
+  "author": "shilim",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cross-env NODE_ENV=development gulp dev --gulpfile script/gulpfile.js --cwd ./",
+    "build:dist": "gulp --gulpfile script/gulpfile.dist.js --cwd ./"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "@inquirer/prompts": "^1.2.3",
+    "@types/node": "^20.2.3",
+    "cross-env": "^7.0.3",
+    "del": "6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.3",
+    "gulp-less": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-util": "^3.0.8",
+    "miniprogram-api-typings": "^3.9.1",
+    "preprocess": "^3.2.0",
+    "through2": "^4.0.2",
+    "typescript": "^5.0.4"
+  }
+}
