@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Swith演示",
+  "usingComponents": {
+    "sl-switch": "sl-components/switch/switch"
+  }
+}

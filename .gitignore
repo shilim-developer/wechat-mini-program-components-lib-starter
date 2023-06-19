@@ -1,5 +1,5 @@
-miniprogram_dist
-_example
+/miniprogram_dist
+/_example
 coverage
 .DS_Store
 package-lock.json

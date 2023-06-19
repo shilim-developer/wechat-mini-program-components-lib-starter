@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "{{component_name}}演示",
+  "usingComponents": {
+    "{{prefix}}-{{file_name}}": "{{projectName}}/{{file_name}}/{{file_name}}"
+  }
+}
