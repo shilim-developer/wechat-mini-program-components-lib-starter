@@ -8,6 +8,7 @@ const rename = require('gulp-rename');
 const plumber = require('gulp-plumber');
 const gulpError = require('./gulpfile.error');
 const gulpJson2Js = require('./gulp-json2js');
+const path = require('path');
 
 // set displayName
 const setDisplayName = (tasks, moduleName) => {
@@ -60,7 +61,7 @@ module.exports = (src, dist, moduleName) => {
   /** `gulp clear`
    * 清理文件
    * */
-  tasks.clear = () => del(dist);
+  tasks.clear = () => del(path.join(dist, '/*'));
 
   /** `gulp copy`
    * 清理
